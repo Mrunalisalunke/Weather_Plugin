@@ -1,6 +1,6 @@
 <?php
 /**
- * Administration functionality for the Weather Plugin settings page in admin.
+ * Custom Post Type.
  * 
  * @category Plugin
  * @requires PHP 5.6.0
@@ -10,11 +10,12 @@
  * @link     https://example.com/plugin-link
  */
 /**
- * 
+ * Add Weather Custom Post Type
  * 
  * @return void
  */
-function Add_Weather_Post_type() {
+function Add_Weather_Post_type() 
+{
     $labels = array(
         'name'               => _x('Weather', 'post type general name', 'weather-translate'),
         'singular_name'      => _x('Weather', 'post type singular name', 'weather-translate'),
